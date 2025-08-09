@@ -1,0 +1,47 @@
+.exp-item {
+    @apply grid grid-cols-1 gap-5 rounded-xl p-6 bg-dark-4 border border-dark-7;
+}
+
+.exp-item-heading {
+    @apply flex justify-between items-center;
+}
+
+.right-exp-heading {
+    @apply flex items-center gap-2;
+}
+
+.exp-icon {
+    @apply bg-dark-10 border border-dark-13 p-2 rounded-lg;
+}
+
+.company-details {
+    @apply flex flex-col gap-[0.1rem] justify-center;
+}
+
+.company-details h3 {
+    @apply text-heading-md text-[1.13rem] text-gray-85;
+}
+
+.company-details span {
+    @apply text-text-xs text-gray-60;
+}
+
+.company-type {
+    @apply  text-center text-gray-60 bg-dark-6 text-text-xs rounded-full px-2 py-1 border border-dark-10 self-start;
+}
+
+.left-exp-heading {
+    @apply text-heading-md text-gray-85;
+}
+
+.exp-item-body {
+    @apply bg-dark-2 p-4 rounded-xl border border-dark-7;
+}
+
+.role-heading {
+    @apply text-text-sm font-bold text-gray-85 mb-1;
+}
+
+.role-description {
+    @apply text-text-xs text-gray-60;
+}

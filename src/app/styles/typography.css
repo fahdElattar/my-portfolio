@@ -41,3 +41,7 @@
 .text-sm {
   @apply text-[16px] font-medium md:text-[13px];
 }
+
+.text-xs {
+  @apply text-[14px] font-medium md:text-[13px];
+}

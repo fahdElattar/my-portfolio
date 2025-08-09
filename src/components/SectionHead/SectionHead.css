@@ -1,0 +1,15 @@
+.section-heading {
+    @apply pb-7 mb-7 border border-b-dark-10 border-dashed border-x-0 border-t-0 capitalize;
+}
+
+.section-title {
+    @apply mb-3;
+}
+
+.section-title h1 {
+    @apply text-heading-xl text-white flex items-center gap-2;
+}
+
+.section-description {
+    @apply text-gray-60 text-text-lg;
+}
