@@ -4,6 +4,7 @@ import { RightSidebar } from "@/components/Sidebars/RightSidebar";
 import { LeftSidebar } from "@/components/Sidebars/LeftSidebar";
 import { Experience } from "@/components/Sections/Experience/Experience";
 import Image from "next/image";
+import { Footer } from "@/components/Footer/Footer";
 
 const Home = () => {
 	return (
@@ -16,6 +17,7 @@ const Home = () => {
 						<Hero />
 						<Experience />
 					</div>
+					{/* <Footer /> */}
 				</div>
 			</div>
 			<RightSidebar />
