@@ -1,0 +1,15 @@
+.running-logos {
+    @apply max-w-[100%] overflow-x-hidden flex items-center gap-8 mt-4 py-6 mb-2 relative after:pointer-events-none after:absolute after:content-[""] after:w-[100%] after:h-[100%] after:left-0 after:top-0;
+}
+
+.running-logos img {
+    @apply h-9;
+}
+
+.running-logos::after {
+    background-image: linear-gradient(to right, #050505 0%, transparent 10%, transparent 90%, #050505 100%);
+}
+
+.achievements {
+    @apply grid grid-cols-4 gap-3 py-6 border border-dashed border-y-dark-10 border-x-0;
+}

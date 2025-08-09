@@ -1,0 +1,11 @@
+.achievement {
+    @apply flex flex-col justify-center items-center gap-1;
+}
+
+.achievement-score {
+    @apply text-gray-90 text-heading-xl;
+}
+
+.achievement-title {
+    @apply text-gray-60;
+}

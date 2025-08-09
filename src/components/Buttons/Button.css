@@ -1,0 +1,45 @@
+/* Base button style */
+.btn {
+    @apply bg-dark-7 flex justify-center items-center gap-2 py-3 outline-none;
+}
+
+/* Tooltip button override */
+.tooltip-btn {
+    @apply bg-transparent border-none cursor-pointer relative opacity-70 transition-all duration-200 ease-in-out hover:bg-dark-7 hover:opacity-100 rounded-lg;
+}
+
+.active {
+    @apply bg-dark-7;
+}
+
+/* Tooltip itself */
+.tooltip-title {
+    @apply whitespace-nowrap uppercase rounded-md absolute left-[4.5rem] top-2/4 bg-dark-7 invisible opacity-0 pointer-events-none px-3 py-2 transition-all duration-200 ease-in-out [transform:translate(-10%,-50%)];
+}
+
+.tooltip-title.up {
+    @apply -top-[90%] left-2/4 [transform:translateX(-50%)];
+}
+
+/* Tooltip arrow */
+.tooltip-title::after {
+    @apply absolute rounded-xl border-r-dark-7 content-[""] top-1/2 -left-3.5 border-8 border-transparent [transform:translateY(-50%)];
+}
+
+.tooltip-title.up::after {
+    @apply top-[92%] left-1/2 [transform:translate(-50%)] border-t-dark-7 border-r-transparent;
+}
+
+/* Tooltip show on hover */
+.tooltip-btn:hover .tooltip-title {
+    @apply visible opacity-100 [transform:translate(0,-50%)];
+}
+
+.tooltip-btn:hover .tooltip-title.up {
+    @apply visible opacity-100 [transform:translate(-50%,-50%)];
+}
+
+/* scramble-btn */
+.scramble-btn {
+    @apply rounded-lg flex gap-2 items-center justify-center text-gray-46 hover:text-gray-90 hover:bg-dark-10 transition-all duration-500 ease-in-out;
+}

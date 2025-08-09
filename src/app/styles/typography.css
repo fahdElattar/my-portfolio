@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* --- Headings --- */
+
+.heading-huge {
+  @apply text-[40px] font-bold leading-tight md:text-[28px];
+}
+
+.heading-xl {
+  @apply text-[28px] font-bold md:text-[24px];
+}
+
+.heading-lg {
+  @apply text-[24px] font-bold md:text-[20px];
+}
+
+.heading-md {
+  @apply text-[22px] font-bold md:text-[18px];
+}
+
+.heading-sm {
+  @apply text-[19px] font-semibold md:text-[16px];
+}
+
+.heading-xs {
+  @apply text-[18px] font-bold md:text-[15px];
+}
+
+/* --- Text Styles --- */
+
+.text-lg {
+  @apply text-[18px] font-medium md:text-[15px];
+}
+
+.text-md {
+  @apply text-[17px] font-medium md:text-[14px];
+}
+
+.text-sm {
+  @apply text-[16px] font-medium md:text-[13px];
+}

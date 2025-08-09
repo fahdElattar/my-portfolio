@@ -1,0 +1,38 @@
+:root {
+    --circle-green: #6DD33D;
+    --shadow-green: #23341C;
+
+    --circle-red: #f21212;
+    --shadow-red: #271819;
+}
+
+.red-pulse {
+    --circle-clr: var(--circle-red);
+    --shadow-clr: var(--shadow-red);
+}
+
+.green-pulse {
+    --circle-clr: var(--circle-green);
+    --shadow-clr: var(--shadow-green);
+}
+
+header {
+    @apply flex justify-between items-center px-7 py-6 border border-b-dark-10 border-x-0 border-t-0;
+}
+
+.circle-pulse {
+    @apply w-2 h-2 mr-2 bg-[var(--circle-clr)] rounded-full;
+}
+
+.circle-pulse {
+    animation: pulse 1500ms ease-in-out infinite;
+}
+
+@keyframes pulse {
+    from {
+        box-shadow: 0px 0px 0px 0px var(--shadow-clr);
+    }
+    to {
+        box-shadow: 0px 0px 0px 12px transparent;
+    }
+}

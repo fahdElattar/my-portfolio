@@ -7,10 +7,55 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      fontFamily: {
+        sans: ['"Space Grotesk"', "sans-serif"],
       },
+      colors: {
+        // Absolute
+        black: '#000000',
+        white: '#FFFFFF',
+
+        // Dark Shades
+        dark: {
+          2: '#050505',
+          4: '#0A0A0B',
+          6: '#0F0F10',
+          7: '#121212',
+          8: '#141415',
+          10: '#19191A',
+          13: '#212122',
+          16: '#28282A',
+          18: '#2D2D2F',
+          22: '#373739',
+          25: '#3E3E41',
+        },
+
+        // Grey Shades
+        gray: {
+          40: '#666666',
+          46: '#757575',
+          60: '#999999',
+          80: '#CCCCCC',
+          85: '#D9D9D9',
+          90: '#E6E6E6',
+          95: '#F2F2F2',
+          99: '#FCFCFC',
+        },
+      },
+      fontSize: {
+        // Headings
+        'heading-huge': ['40px', { lineHeight: '1.2', fontWeight: '700' }],
+        'heading-xl': ['28px', { lineHeight: '1.3', fontWeight: '700' }],
+        'heading-lg': ['24px', { lineHeight: '1.3', fontWeight: '700' }],
+        'heading-md': ['22px', { lineHeight: '1.4', fontWeight: '700' }],
+        'heading-sm': ['19px', { lineHeight: '1.4', fontWeight: '600' }],
+        'heading-xs': ['18px', { lineHeight: '1.4', fontWeight: '700' }],
+
+        // Text
+        'text-lg': ['18px', { lineHeight: '1.6', fontWeight: '500' }],
+        'text-md': ['17px', { lineHeight: '1.6', fontWeight: '500' }],
+        'text-sm': ['16px', { lineHeight: '1.6', fontWeight: '500' }],
+      }
     },
   },
   plugins: [],
