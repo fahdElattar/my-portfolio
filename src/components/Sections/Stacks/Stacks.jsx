@@ -16,6 +16,36 @@ export const Stacks = () => {
                     stackName="Figma"
                     stackDesc="Interface Design Tool"
                 />
+                <StackItem
+                    link="https://www.notion.com"
+                    iconName="notion"
+                    stackName="notion"
+                    stackDesc="productivity Tool"
+                />
+                <StackItem
+                    link="https://www.webflow.com"
+                    iconName="webflow"
+                    stackName="webflow"
+                    stackDesc="No code design Tool"
+                />
+                <StackItem
+                    link="https://www.framer.com"
+                    iconName="framer"
+                    stackName="framer"
+                    stackDesc="No code design Tool"
+                />
+                <StackItem
+                    link="https://www.slack.com"
+                    iconName="slack"
+                    stackName="slack"
+                    stackDesc="productivity Tool"
+                />
+                <StackItem
+                    link="https://www.asana.com"
+                    iconName="asana"
+                    stackName="asana"
+                    stackDesc="Productivity Tool"
+                />
             </div>
         </section>
     )

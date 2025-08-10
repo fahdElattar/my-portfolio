@@ -1,0 +1,39 @@
+.word-item {
+    @apply grid grid-cols-1 gap-5 rounded-xl p-5 bg-dark-4 border border-dark-7;
+}
+
+.word-item-heading {
+    @apply flex justify-between items-center;
+}
+
+.left-word-heading {
+    @apply flex items-center gap-2;
+}
+
+.word-icon {
+    @apply bg-dark-10 border border-dark-13 rounded-lg;
+}
+
+.word-details {
+    @apply flex flex-col gap-[0.1rem] justify-center;
+}
+
+.word-details h3 {
+    @apply text-heading-sm text-[1.13rem] text-gray-85;
+}
+
+.position {
+    @apply flex justify-start items-center gap-1;
+}
+
+.position span {
+    @apply text-text-xs text-gray-60;
+}
+
+.right-word-heading {
+    @apply p-[10px] bg-dark-7 border border-dark-8 rounded-lg hover:bg-dark-10 transition-all duration-200 ease-in-out;
+}
+
+.word-description {
+    @apply text-text-xs text-gray-60;
+}

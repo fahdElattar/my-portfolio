@@ -56,7 +56,10 @@ export default {
         'text-md': ['17px', { lineHeight: '1.6', fontWeight: '500' }],
         'text-sm': ['16px', { lineHeight: '1.6', fontWeight: '500' }],
         'text-xs': ['14px', { lineHeight: '1.6', fontWeight: '500' }],
-      }
+      },
+      screens: {
+        'max-390': { 'max': '390px' },
+      },
     },
   },
   plugins: [],

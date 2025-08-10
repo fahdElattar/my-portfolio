@@ -19,7 +19,7 @@
 }
 
 .stack-desc {
-    @apply text-text-xs text-gray-60;
+    @apply text-text-xs text-gray-60 capitalize;
 }
 
 .arrow-right {

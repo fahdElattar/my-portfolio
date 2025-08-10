@@ -1,0 +1,31 @@
+.service-item {
+    @apply p-5 rounded-lg grid grid-cols-1 gap-3 bg-dark-4 border border-dark-7 hover:bg-dark-7 transition-all duration-300 ease-in-out;
+}
+
+.service-heading {
+    @apply flex justify-between items-center;
+}
+
+.left-heading {
+    @apply flex items-center gap-2;
+}
+
+.service-logo {
+    @apply bg-dark-10 border border-dark-13 p-2 rounded-lg;
+}
+
+.service-name {
+    @apply text-heading-sm font-bold text-gray-85 capitalize;
+}
+
+.service-body {
+    @apply text-text-xs text-gray-60 capitalize;
+}
+
+.arrow-right {
+    @apply transition-all duration-300 ease-in-out opacity-0;
+}
+
+.service-item:hover .arrow-right {
+    @apply opacity-90 [transform:rotate(-45deg)];
+}

@@ -5,6 +5,8 @@ import { LeftSidebar } from "@/components/Sidebars/LeftSidebar";
 import { Experience } from "@/components/Sections/Experience/Experience";
 import { Footer } from "@/components/Footer/Footer";
 import { Stacks } from "@/components/Sections/Stacks/Stacks";
+import { Services } from "@/components/Sections/Services/Services";
+import { Words } from "@/components/Sections/Words/Words";
 
 const Home = () => {
 	return (
@@ -17,8 +19,10 @@ const Home = () => {
 						<Hero />
 						<Experience />
 						<Stacks />
+						<Services />
+						<Words />
 					</div>
-					{/* <Footer /> */}
+					<Footer />
 				</div>
 			</div>
 			<RightSidebar />
