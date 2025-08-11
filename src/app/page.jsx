@@ -7,6 +7,7 @@ import { Footer } from "@/components/Footer/Footer";
 import { Stacks } from "@/components/Sections/Stacks/Stacks";
 import { Services } from "@/components/Sections/Services/Services";
 import { Words } from "@/components/Sections/Words/Words";
+import { Projects } from "@/components/Sections/Projects/Projects";
 
 const Home = () => {
 	return (
@@ -20,6 +21,7 @@ const Home = () => {
 						<Experience />
 						<Stacks />
 						<Services />
+						<Projects />
 						<Words />
 					</div>
 					<Footer />

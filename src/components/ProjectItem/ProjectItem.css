@@ -1,0 +1,39 @@
+.project-item {
+    @apply grid grid-cols-2 gap-4 rounded-lg p-4 bg-dark-4 border border-dark-7;
+}
+
+.project-img {
+    @apply max-h-[11.3rem] rounded-lg overflow-hidden flex justify-center items-center;
+}
+
+.project-img img {
+    @apply w-full;
+}
+
+.project-details {
+    @apply py-1 grid grid-cols-1 gap-4;
+}
+
+.project-heading {
+    @apply flex justify-between items-center gap-2;
+}
+
+.project-heading h2 {
+    @apply text-heading-lg text-gray-85 capitalize;
+}
+
+.project-link {
+    @apply text-gray-80 text-text-sm bg-dark-7 border border-dark-10 opacity-70 hover:opacity-100 transition-all duration-200 ease-in-out flex justify-center items-center gap-2 p-3 outline-none rounded-lg;
+}
+
+.more-details {
+    @apply flex items-center justify-start gap-8 py-3 text-text-xs text-gray-60 capitalize border border-y-dark-10 border-x-0 list-disc;
+}
+
+.more-details li:first-child {
+    @apply list-none;
+}
+
+.project-desc {
+    @apply text-text-sm text-gray-60;
+}

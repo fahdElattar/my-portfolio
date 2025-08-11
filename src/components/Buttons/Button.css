@@ -41,5 +41,5 @@
 
 /* scramble-btn */
 .scramble-btn {
-    @apply rounded-lg flex gap-2 items-center justify-center text-gray-46 hover:text-gray-90 hover:bg-dark-10 transition-all duration-500 ease-in-out;
+    @apply rounded-lg flex gap-2 items-center justify-center text-text-sm text-gray-46 hover:text-gray-90 hover:bg-dark-10 transition-all duration-500 ease-in-out;
 }

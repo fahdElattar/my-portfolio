@@ -17,10 +17,10 @@ export const Hero = () => {
                     <p className="description text-lg text-gray-60">Experienced web developer from Safi, Morocco, with a passion for crafting seamless digital experiences and a proven track record.</p>
                     <div className="usefull-buttons grid grid-cols-2 gap-6 w-full">
                         <ScrambleButton text={"Email Me"}>
-                            <Image src="/icons/mail.svg" alt="icon" width={20} height={20} />
+                            <Image src="/icons/mail.svg" alt="icon" width={20} height={20} className='opacity-80'/>
                         </ScrambleButton>
                         <ScrambleButton text={"Schedule Call"}>
-                            <Image src="/icons/agenda.svg" alt="icon" width={20} height={20} />
+                            <Image src="/icons/agenda.svg" alt="icon" width={20} height={20} className='opacity-80'/>
                         </ScrambleButton>
                     </div>
                 </div>

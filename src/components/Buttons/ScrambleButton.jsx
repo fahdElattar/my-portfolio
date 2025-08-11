@@ -2,7 +2,7 @@
 import Button from "./Button";
 import { useState, useEffect } from "react";
 
-export const ScrambleButton = ({children, text}) => {
+export const ScrambleButton = ({children, text, className=""}) => {
 	const originalText = text;
 	const [txt, setTxt] = useState(originalText);
 	const [scrambling, setScrambling] = useState(false);
@@ -39,7 +39,7 @@ export const ScrambleButton = ({children, text}) => {
 
 	return (
 		<Button
-			className="scramble-btn text-md"
+			className={`scramble-btn ${className}`}
 			onMouseEnter={() => setScrambling(true)}
 			onMouseLeave={() => setScrambling(true)}
 		>
