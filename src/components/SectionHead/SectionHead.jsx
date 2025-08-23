@@ -1,7 +1,7 @@
 import "./SectionHead.css"
 import Image from "next/image"
 
-export const SectionHead = ({title, iconName, description}) => {
+export const SectionHead = ({title, iconName, description, children}) => {
     return (
         <div className="section-heading">
             <div className="section-title">
@@ -11,6 +11,7 @@ export const SectionHead = ({title, iconName, description}) => {
                 </h1>
             </div>
             <p className="section-description">{description}</p>
+            {children}
         </div>
     )
 }

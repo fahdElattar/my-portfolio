@@ -7,7 +7,7 @@
 }
 
 .section-title h1 {
-    @apply text-heading-xl text-white flex items-center gap-2;
+    @apply text-heading-xl text-white flex items-center gap-2 truncate;
 }
 
 .section-description {

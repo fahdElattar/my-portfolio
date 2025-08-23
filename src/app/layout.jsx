@@ -2,6 +2,7 @@ import "./globals.css";
 import './styles/typography.css';
 import './styles/layout.css';
 import './styles/icons.css';
+import './styles/responsiveness.css';
 
 import { Space_Grotesk } from "next/font/google";
 

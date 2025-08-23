@@ -1,0 +1,34 @@
+.query-item {
+    @apply p-6 rounded-lg bg-dark-4 border border-dark-6 cursor-pointer;
+}
+
+.query-question {
+    @apply flex justify-between items-center gap-2;
+}
+
+.query-txt {
+    @apply text-gray-60 text-text-md transition-all duration-300 ease-in-out;
+}
+
+.query-txt.true {
+    @apply text-gray-85;
+}
+
+.query-question .query-icon {
+    @apply grid place-content-center p-2 bg-dark-6 border border-dark-7 rounded-lg;
+}
+
+.query-img {
+    @apply opacity-70 [transform:rotate(-45deg)] transition-all duration-300 ease-in-out;
+}
+
+.query-img.true {
+    @apply opacity-100 [transform:rotate(0deg)];
+}
+.query-response {
+    @apply max-h-0 overflow-hidden pt-0 mt-0 text-text-sm text-gray-60 border border-x-0 border-b-0 border-t-dark-13 opacity-0 transition-all duration-300 ease-in-out;
+}
+
+.query-response.true {
+    @apply max-h-[500px] pt-4 mt-4 opacity-100;
+}

@@ -4,6 +4,10 @@
 
 /* --- Headings --- */
 
+.heading-xhuge {
+  @apply text-[80px] font-bold leading-tight md:text-[28px];
+}
+
 .heading-huge {
   @apply text-[40px] font-bold leading-tight md:text-[28px];
 }

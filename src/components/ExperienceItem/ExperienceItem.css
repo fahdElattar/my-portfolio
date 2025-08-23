@@ -1,12 +1,16 @@
 .exp-item {
-    @apply grid grid-cols-1 gap-5 rounded-xl p-6 bg-dark-4 border border-dark-7;
+    @apply grid grid-cols-1 gap-5 rounded-xl p-6 bg-dark-4 border border-dark-13;
 }
 
 .exp-item-heading {
-    @apply flex justify-between items-center;
+    @apply flex flex-col md:flex-row justify-between md:items-center gap-6;
 }
 
-.right-exp-heading {
+.left-exp-heading {
+    @apply flex items-center justify-between md:justify-start gap-2;
+}
+
+.company-main {
     @apply flex items-center gap-2;
 }
 
@@ -30,12 +34,12 @@
     @apply  text-center text-gray-60 bg-dark-6 text-text-xs rounded-full px-2 py-1 border border-dark-10 self-start;
 }
 
-.left-exp-heading {
-    @apply text-heading-md text-gray-85;
+.right-exp-heading {
+    @apply text-heading-md text-gray-85 py-4 border border-y-dark-13 border-x-0 md:p-0 md:border-0;
 }
 
 .exp-item-body {
-    @apply bg-dark-2 p-4 rounded-xl border border-dark-7;
+    @apply bg-dark-2 p-4 rounded-xl border border-dark-13;
 }
 
 .role-heading {

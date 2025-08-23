@@ -10,7 +10,7 @@ export const Words = () => {
                 iconName={"shooting-star"}
                 description={"Discover what satisfied clients have to say about their experiences working with me."}
             />
-            <div className="words-list grid grid-cols-2 gap-2">
+            <div className="words-list grid grid-cols-1 md:grid-cols-2 gap-2">
                 <WordItem 
                     avatarImg="woman-1"
                     avatarName="Sarah Thompson"

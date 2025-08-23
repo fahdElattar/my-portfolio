@@ -44,6 +44,7 @@ export default {
       },
       fontSize: {
         // Headings
+        'heading-xhuge': ['80px', { lineHeight: '1.2', fontWeight: '700' }],
         'heading-huge': ['40px', { lineHeight: '1.2', fontWeight: '700' }],
         'heading-xl': ['28px', { lineHeight: '1.3', fontWeight: '700' }],
         'heading-lg': ['24px', { lineHeight: '1.3', fontWeight: '700' }],
@@ -59,6 +60,11 @@ export default {
       },
       screens: {
         'max-390': { 'max': '390px' },
+        sm: "390px",   // Small devices (phones)
+        md: "768px",   // Medium devices (tablets)
+        lg: "1024px",  // Large devices (small laptops)
+        xl: "1200px",  // Extra large devices (desktops)
+        "2xl": "1536px", // 2x large screens
       },
     },
   },

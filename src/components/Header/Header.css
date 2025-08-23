@@ -17,7 +17,7 @@
 }
 
 header {
-    @apply flex justify-between items-center px-7 py-6 border border-b-dark-10 border-x-0 border-t-0;
+    @apply flex justify-center md:justify-between items-center gap-4 px-7 py-6 border border-b-dark-10 border-x-0 border-t-0;
 }
 
 .circle-pulse {

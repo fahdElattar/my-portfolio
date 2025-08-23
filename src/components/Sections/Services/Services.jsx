@@ -9,7 +9,7 @@ export const Services = () => {
                 iconName={"thunder"}
                 description={"Formulating comprehensive strategies to meet your design goals and exceed expectations."}
             />
-            <div className="services-list grid grid-cols-2 gap-3">
+            <div className="services-list grid grid-cols-1 md:grid-cols-2 gap-3">
                 <ServiceItem
                     iconName="layout"
                     ServiceName="Web Design"

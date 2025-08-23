@@ -6,8 +6,8 @@ export const Hero = () => {
     return (
         <main id="Hero">
             <section className="grid grid-cols-[35%_1fr] gap-5">
-                <div className="profile-img block bg-dark-7 border-dark-22 rounded-xl">
-                    {/* <img src="" alt="" /> */}
+                <div className="profile-img bg-dark-7 border-dark-22 rounded-xl relative overflow-hidden">
+                    <Image src="/images/my-image-3.png" alt="avatar" width={230} height={230} className="absolute bottom-0 left-5"/>
                 </div>
                 <div className="flex justify-center items-start flex-col gap-3">
                     <span className="flex items-center gap-2 whitespace-nowrap text-gray-60 heading-md">

@@ -1,0 +1,8 @@
+/* xl screens */
+.invisible-xl {
+    @apply hidden xl:flex;
+}
+
+.visible-xl {
+    @apply flex xl:hidden;
+}
