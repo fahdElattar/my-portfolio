@@ -1,5 +1,5 @@
 .stack-item {
-    @apply flex justify-between items-center p-4 rounded-lg bg-dark-4 border border-dark-7 hover:bg-dark-7 transition-all duration-300 ease-in-out;
+    @apply flex justify-between gap-4 items-center p-4 rounded-lg bg-dark-4 border border-dark-7 hover:bg-dark-7 transition-all duration-300 ease-in-out;
 }
 
 .item-left {
@@ -19,7 +19,7 @@
 }
 
 .stack-desc {
-    @apply text-text-xs text-gray-60 capitalize;
+    @apply text-text-xs text-gray-60 capitalize truncate;
 }
 
 .arrow-right {

@@ -22,7 +22,7 @@ export const Contact = () => {
                     </ScrambleButton>
                 </div>
             </SectionHead>
-            <div className="contact grid grid-cols-[60%_40%] gap-4 items-center">
+            <div className="contact grid grid-cols-1 md:grid-cols-[60%_40%] gap-4 items-center">
                 <form className="contact-form grid grid-cols-2 gap-3">
                     <input type="text" className='border-0 text-white text-text-sm bg-dark-6 rounded-lg p-4 focus:outline-none placeholder:text-gray-46 placeholder:font-semibold' placeholder='Name' />
                     <input type="email" className='border-0 text-white text-text-sm bg-dark-6 rounded-lg p-4 focus:outline-none placeholder:text-gray-46 placeholder:font-semibold' placeholder='Email' />
