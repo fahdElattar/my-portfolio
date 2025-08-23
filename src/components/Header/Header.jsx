@@ -25,21 +25,21 @@ export const Header = () => {
                 <span className="circle-pulse green-pulse"></span>
                 Available For Work
             </Button>
-            <div className="grid grid-cols-3 gap-3 visible-xl">
+            <div className="grid grid-cols-3 gap-1 sm:gap-3 xl:hidden w-full">
                 <Link href={"/"}>
-                    <Button className="rounded-lg">
+                    <Button className="rounded-lg w-full">
                         <Image src="/icons/user.svg" alt="icon" width={20} height={20}/>
                         <p className="text-text-xs">Home</p>
                     </Button>
                 </Link>
                 <Link href={"services"}>
-                    <Button className="rounded-lg">
+                    <Button className="rounded-lg w-full">
                         <Image src="/icons/thunder.svg" alt="icon" width={20} height={20}/>
                         <p className="text-text-xs">Services</p>
                     </Button>
                 </Link>
                 <Link href={"contact"}>
-                    <Button className="rounded-lg">
+                    <Button className="rounded-lg w-full">
                         <Image src="/icons/mail.svg" alt="icon" width={20} height={20}/>
                         <p className="text-text-xs">Contact</p>
                     </Button>

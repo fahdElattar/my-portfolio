@@ -8,7 +8,7 @@ export const Layout = ({children}) => {
         <>
             <LeftSidebar />
             <div className="grid sm:grid-cols-[13vw_1fr_13vw] min-h-screen">
-                <div className="sm:col-start-2 overflow-hidden px-6 sm:px-0">
+                <div className="sm:col-start-2 overflow-hidden px-5 sm:px-0">
                     <Header />
                     <div className="container grid grid-cols-1 gap-28">
                         {children}
