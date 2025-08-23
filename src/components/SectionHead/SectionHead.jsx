@@ -7,7 +7,7 @@ export const SectionHead = ({title, iconName, description, children}) => {
             <div className="section-title">
                 <h1>
                     <Image src={`/icons/${iconName}.svg`} alt="icon" width={30} height={30}/>
-                    {title}
+                    <span className="truncate">{title}</span>
                 </h1>
             </div>
             <p className="section-description">{description}</p>
