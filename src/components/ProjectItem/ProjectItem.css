@@ -1,9 +1,9 @@
 .project-item {
-    @apply grid grid-cols-2 gap-4 rounded-lg p-4 bg-dark-4 border border-dark-7;
+    @apply grid grid-cols-1 md:grid-cols-2 gap-4 rounded-lg p-4 bg-dark-4 border border-dark-7;
 }
 
 .project-img {
-    @apply max-h-[11.3rem] rounded-lg overflow-hidden flex justify-center items-center;
+    @apply max-h-[11.3rem] rounded-lg overflow-hidden flex justify-center items-center self-center;
 }
 
 .project-img img {
@@ -19,7 +19,7 @@
 }
 
 .project-heading h2 {
-    @apply text-heading-lg text-gray-85 capitalize;
+    @apply text-heading-sm text-gray-85 capitalize;
 }
 
 .project-link {
@@ -35,5 +35,5 @@
 }
 
 .project-desc {
-    @apply text-text-sm text-gray-60;
+    @apply text-text-xs text-gray-60;
 }
