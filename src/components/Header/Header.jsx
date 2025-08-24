@@ -21,7 +21,7 @@ export const Header = () => {
     
     return (
         <header id="Header">
-            <Button className="rounded-full px-6 text-gray-80 cursor-text border border-dark-16 capitalize hidden md:flex">
+            <Button className="rounded-full px-6 text-gray-80 cursor-text border border-dark-16 capitalize hidden lg:flex">
                 <span className="circle-pulse green-pulse"></span>
                 Available For Work
             </Button>

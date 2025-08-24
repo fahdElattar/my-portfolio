@@ -5,24 +5,24 @@ import Image from 'next/image';
 export const Hero = () => {
     return (
         <main id="Hero">
-            <section className="grid grid-cols-[35%_1fr] gap-5">
-                <div className="profile-img bg-dark-7 border-dark-22 rounded-xl relative overflow-hidden">
-                    <Image src="/images/my-image-3.png" alt="avatar" width={230} height={230} className="absolute bottom-0 left-5"/>
+            <section className="grid grid-cols-[8rem_1fr] md:grid-cols-[16rem_1fr] gap-5 gap-y-0">
+                <div className="profile-img row-span-1 md:row-span-4 max-h-[16rem] h-[128px] md:h-auto bg-dark-7 border-dark-22 rounded-xl relative overflow-hidden">
+                    <img src="/images/my-image-3.png" alt="avatar" className="absolute bottom-0 left-3 md:left-5 w-28 md:w-[232px]"/>
                 </div>
-                <div className="flex justify-center items-start flex-col gap-3">
-                    <span className="flex items-center gap-2 whitespace-nowrap text-gray-60 heading-md">
+                <div className="self-center">
+                    <span className="flex items-center gap-2 whitespace-nowrap text-gray-60 heading-md mb-1">
                         Hello I Am
                     </span>
                     <h1 className="heading-huge text-white">Fahd El Attar</h1>
-                    <p className="description text-lg text-gray-60">Experienced web developer from Safi, Morocco, with a passion for crafting seamless digital experiences and a proven track record.</p>
-                    <div className="usefull-buttons grid grid-cols-2 gap-6 w-full">
-                        <ScrambleButton text={"Email Me"}>
-                            <Image src="/icons/mail.svg" alt="icon" width={20} height={20} className='opacity-80'/>
-                        </ScrambleButton>
-                        <ScrambleButton text={"Schedule Call"}>
-                            <Image src="/icons/agenda.svg" alt="icon" width={20} height={20} className='opacity-80'/>
-                        </ScrambleButton>
-                    </div>
+                </div>
+                <p className="description text-[15px] font-medium text-gray-60 col-span-2 md:col-span-1 my-4">Experienced web developer from Safi, Morocco, with a passion for crafting seamless digital experiences and a proven track record.</p>
+                <div className="usefull-buttons grid grid-cols-1 md:grid-cols-2 gap-6 gap-y-2 w-full col-span-2 md:col-span-1">
+                    <ScrambleButton text={"Email Me"} className='text-[13px] font-semibold'>
+                        <Image src="/icons/mail.svg" alt="icon" width={20} height={20} className='opacity-80'/>
+                    </ScrambleButton>
+                    <ScrambleButton text={"Schedule Call"} className='text-[15px] font-semibold'>
+                        <Image src="/icons/agenda.svg" alt="icon" width={20} height={20} className='opacity-80'/>
+                    </ScrambleButton>
                 </div>
             </section>
             <section className="running-logos">

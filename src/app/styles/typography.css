@@ -9,7 +9,7 @@
 }
 
 .heading-huge {
-  @apply text-[40px] font-bold leading-tight md:text-[28px];
+  @apply text-[28px] font-bold leading-tight md:text-[28px];
 }
 
 .heading-xl {
@@ -21,7 +21,7 @@
 }
 
 .heading-md {
-  @apply text-[22px] font-bold md:text-[18px];
+  @apply text-[18px] font-bold md:text-[18px];
 }
 
 .heading-sm {
@@ -39,7 +39,7 @@
 }
 
 .text-md {
-  @apply text-[17px] font-medium md:text-[14px] sm:text-[12px];
+  @apply text-[14px] font-medium md:text-[14px] sm:text-[12px];
 }
 
 .text-sm {

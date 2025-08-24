@@ -54,8 +54,8 @@ export default {
 
         // Text
         'text-lg': ['18px', { lineHeight: '1.6', fontWeight: '500' }],
-        'text-md': ['17px', { lineHeight: '1.6', fontWeight: '500' }],
-        'text-sm': ['16px', { lineHeight: '1.6', fontWeight: '500' }],
+        'text-md': ['14px', { lineHeight: '1.6', fontWeight: '500' }],
+        'text-sm': ['15px', { lineHeight: '1.6', fontWeight: '500' }],
         'text-xs': ['14px', { lineHeight: '1.6', fontWeight: '500' }],
       },
       screens: {
