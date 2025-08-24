@@ -1,5 +1,5 @@
 .exp-item {
-    @apply grid grid-cols-1 gap-5 rounded-xl p-6 bg-dark-4 border border-dark-13;
+    @apply grid grid-cols-1 gap-5 rounded-xl p-6 bg-dark-4 border border-dark-10;
 }
 
 .exp-item-heading {
@@ -39,7 +39,7 @@
 }
 
 .exp-item-body {
-    @apply bg-dark-2 p-4 rounded-xl border border-dark-13;
+    @apply bg-dark-2 p-4 rounded-xl border border-dark-10;
 }
 
 .role-heading {
