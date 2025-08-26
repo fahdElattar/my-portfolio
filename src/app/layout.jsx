@@ -15,6 +15,11 @@ const spaceGrotesk = Space_Grotesk({
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
+		<head>
+			<link rel="icon" href="/icons/fahd-icon.svg" sizes="any" />
+			<title>Fahd El Attar - Welcome to my portfolio</title>
+			<meta name="description" content="This is my personal portfolio" />
+		</head>
 			<body className={(spaceGrotesk.variable, "min-h-screen bg-dark-2")}>
 				{children}
 			</body>

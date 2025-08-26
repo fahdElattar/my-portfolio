@@ -7,7 +7,7 @@
 }
 
 .query-txt {
-    @apply text-gray-60 text-text-md transition-all duration-300 ease-in-out;
+    @apply text-gray-60 text-[17px] font-medium transition-all duration-300 ease-in-out;
 }
 
 .query-txt.true {

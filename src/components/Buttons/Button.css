@@ -9,7 +9,7 @@
 }
 
 .active {
-    @apply bg-dark-7;
+    @apply bg-dark-10;
 }
 
 /* Tooltip itself */

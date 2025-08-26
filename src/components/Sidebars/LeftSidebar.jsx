@@ -3,7 +3,7 @@ import { TooltipButton } from "../Buttons/TooltipButton"
 import './Sidebars.css';
 import Image from "next/image";
 
-export const LeftSidebar = () => {
+export const LeftSidebar = ({activeLink}) => {
     return (
         <aside className="left-sidebar">
             <div className="avatar block w-14 h-14 rounded-full border-4 border-dark-16 overflow-hidden relative">
@@ -11,17 +11,17 @@ export const LeftSidebar = () => {
             </div>
             <div className="navigation flex flex-col gap-6">
                 <Link href={"/"}>
-                    <TooltipButton tooltip="Home" className="active">
+                    <TooltipButton tooltip="Home" className={activeLink=="home" && "active"}>
                         <Image src="/icons/user.svg" alt="icon" width={28} height={28}/>
                     </TooltipButton>
                 </Link>
                 <Link href={"services"}>
-                    <TooltipButton tooltip="Services">
+                    <TooltipButton tooltip="Services" className={activeLink=="services" && "active"}>
                         <Image src="/icons/thunder.svg" alt="icon" width={28} height={28}/>
                     </TooltipButton>
                 </Link>
                 <Link href={"contact"}>
-                    <TooltipButton tooltip="Contact">
+                    <TooltipButton tooltip="Contact" className={activeLink=="contact" && "active"}>
                         <Image src="/icons/mail.svg" alt="icon" width={28} height={28}/>
                     </TooltipButton>
                 </Link>

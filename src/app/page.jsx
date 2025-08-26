@@ -8,7 +8,7 @@ import { Layout } from "@/components/Layout/Layout";
 
 const Home = () => {
 	return (
-		<Layout>
+		<Layout activeSidebarLink="home">
 			<Hero />
 			<Experience />
 			<Stacks />

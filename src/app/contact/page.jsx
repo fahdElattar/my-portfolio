@@ -5,7 +5,7 @@ import { Queries } from '@/components/Sections/Queries/Queries';
 
 const page = () => {
     return (
-        <Layout>
+        <Layout activeSidebarLink="contact">
             <Contact />
             <Queries />
         </Layout>

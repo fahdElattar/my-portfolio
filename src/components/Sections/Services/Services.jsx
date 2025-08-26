@@ -5,7 +5,7 @@ export const Services = () => {
     return (
         <section id="Services">
             <SectionHead 
-                title={"Services"}
+                title={"My Services"}
                 iconName={"thunder"}
                 description={"Formulating comprehensive strategies to meet your design goals and exceed expectations."}
             />
