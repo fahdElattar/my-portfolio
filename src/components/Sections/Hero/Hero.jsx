@@ -34,10 +34,10 @@ export const Hero = () => {
                 <img src="https://framerusercontent.com/images/huw175xWveIcdZeU1dBh8Wys.svg" alt="social-media-icon"></img>
             </section>
             <section className="achievements">
-                <Achievement score={"56"} title={"Happy clients"} />
+                <Achievement score={"5"} title={"Happy clients"} />
                 <Achievement score={"6"} title={"Years of Experience"} />
                 <Achievement score={"40"} title={"Complated Tasks"} />
-                <Achievement score={"10"} title={"Awards Received"} />
+                <Achievement score={"5"} title={"Certifications"} />
             </section>
         </main>
     )

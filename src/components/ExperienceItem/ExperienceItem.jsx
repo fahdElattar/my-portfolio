@@ -1,7 +1,7 @@
 import Image from "next/image"
 import "./ExperienceItem.css"
 
-export const ExperienceItem = ({iconName, companyName, companyLink, companyType, startDate, endDate, role, roleDesc}) => {
+export const ExperienceItem = ({iconName, companyName, companyLink, companyType, date, role, roleDesc}) => {
     return (
         <div className="exp-item">
             <div className="exp-item-heading">
@@ -17,7 +17,7 @@ export const ExperienceItem = ({iconName, companyName, companyLink, companyType,
                     </div>
                     <span className="company-type">{companyType}</span>
                 </div>
-                <h1 className="right-exp-heading">{startDate} - {endDate}</h1>
+                <h1 className="right-exp-heading">{date}</h1>
             </div>
             <div className="exp-item-body">
                 <h3 className="role-heading">{role}</h3>

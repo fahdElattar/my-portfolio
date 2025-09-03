@@ -12,23 +12,30 @@ export const Experience = () => {
             <div className="experience-items grid grid-cols-1 gap-3">
                 <ExperienceItem
                     iconName={"vortex"}
-                    companyName={"Vortex"}
-                    companyLink={"Vortex.co"}
-                    companyType={"Tech Firm"}
-                    startDate={"2023"}
-                    endDate={"Present"}
-                    role={"Product Designer"}
-                    roleDesc={"Headed product design initiatives, defined design strategy, and ensured alignment with business objectives for market-leading products."}
+                    companyName={"LAPSSII"}
+                    companyLink={"ests.uca.ma"}
+                    companyType={"Research lab"}
+                    date={"2024"}
+                    role={"Full stack developer / Machine Learning Engineer"}
+                    roleDesc={"Engineered an AI-powered learning platform that analyzes student feedback to provide educators with actionable insights for course improvement."}
                 />
                 <ExperienceItem
                     iconName={"pixel"}
-                    companyName={"PixelWorks"}
-                    companyLink={"pixelWorks.io"}
-                    companyType={"Design Studio"}
-                    startDate={"2022"}
-                    endDate={"2023"}
-                    role={"Senior UI/UX Designer"}
-                    roleDesc={"Provided leadership in UI/UX design, mentored junior designers, and collaborated with cross-functional teams for product excellence."}
+                    companyName={"Boukari Cabinet"}
+                    companyLink={"website unavailable"}
+                    companyType={"Medical Cabinet"}
+                    date={"2023"}
+                    role={"Full stack developer"}
+                    roleDesc={"Developed and deployed a secure medical management application, centralizing patient records and appointments, to significantly improve office efficiency for healthcare professionals."}
+                />
+                <ExperienceItem
+                    iconName={"athon"}
+                    companyName={"Ciments du Maroc"}
+                    companyLink={"cimentsdumaroc.com"}
+                    companyType={"Industrial company"}
+                    date={"2022"}
+                    role={"Full stack developer"}
+                    roleDesc={"Developed a PHP-based scheduling web app that optimized resource planning and cross-sector coordination, enabling smoother operations and informed decision-making."}
                 />
             </div>
         </section>

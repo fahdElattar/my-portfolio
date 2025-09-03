@@ -7,7 +7,7 @@
 }
 
 .stack-logo {
-    @apply bg-dark-10 border border-dark-13 p-2 rounded-lg;
+    @apply bg-dark-10 border border-dark-13 p-2 rounded-lg w-12 h-12 grid place-content-center overflow-hidden;
 }
 
 .stack-details {
