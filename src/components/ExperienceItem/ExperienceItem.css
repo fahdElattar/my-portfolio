@@ -23,7 +23,7 @@
 }
 
 .company-details h3 {
-    @apply text-heading-md text-[1.13rem] text-gray-85;
+    @apply text-heading-md text-[1.13rem] text-gray-85 text-nowrap;
 }
 
 .company-details span {
