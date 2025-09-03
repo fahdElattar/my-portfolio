@@ -29,7 +29,7 @@ export const Experience = () => {
                     roleDesc={"Developed and deployed a secure medical management application, centralizing patient records and appointments, to significantly improve office efficiency for healthcare professionals."}
                 />
                 <ExperienceItem
-                    iconName={"athon"}
+                    iconName={"vortex"}
                     companyName={"Ciments du Maroc"}
                     companyLink={"cimentsdumaroc.com"}
                     companyType={"Industrial company"}

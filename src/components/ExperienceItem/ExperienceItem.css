@@ -31,7 +31,7 @@
 }
 
 .company-type {
-    @apply  text-center text-gray-60 bg-dark-6 text-text-xs rounded-full px-2 py-1 border border-dark-10 self-start;
+    @apply  text-center text-gray-60 bg-dark-6 text-text-xs rounded-full px-2 py-1 border border-dark-10 self-start truncate;
 }
 
 .right-exp-heading {
