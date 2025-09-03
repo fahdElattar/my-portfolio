@@ -1,5 +1,5 @@
 .exp-item {
-    @apply grid grid-cols-1 gap-5 rounded-xl p-6 bg-dark-4 border border-dark-10;
+    @apply grid grid-cols-1 gap-5 rounded-xl p-6 bg-dark-4 border border-dark-10 overflow-hidden;
 }
 
 .exp-item-heading {
@@ -23,7 +23,7 @@
 }
 
 .company-details h3 {
-    @apply text-heading-md text-[1.13rem] text-gray-85 text-nowrap;
+    @apply text-heading-md text-[1.13rem] text-gray-85 text-nowrap whitespace-nowrap;
 }
 
 .company-details span {

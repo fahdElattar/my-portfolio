@@ -30,7 +30,7 @@ export const Experience = () => {
                 />
                 <ExperienceItem
                     iconName={"athon"}
-                    companyName={"Ciments du Maroc"}
+                    companyName={"Ciments Maroc"}
                     companyLink={"cimentsdumaroc.com"}
                     companyType={"Industrial company"}
                     date={"2022"}
