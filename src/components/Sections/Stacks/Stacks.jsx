@@ -78,7 +78,7 @@ export const Stacks = () => {
                 />
                 <StackItem
                     link="https://www.javascript.com/"
-                    iconName="javascript"
+                    iconName="js"
                     stackName="Javascript"
                     stackDesc="Programming language"
                 />
