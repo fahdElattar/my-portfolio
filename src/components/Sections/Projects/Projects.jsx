@@ -3,6 +3,7 @@ import { ScrambleButton } from '@/components/Buttons/ScrambleButton'
 import { ProjectItem } from '@/components/ProjectItem/ProjectItem'
 import { SectionHead } from '@/components/SectionHead/SectionHead'
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 export const Projects = () => {
@@ -32,11 +33,11 @@ export const Projects = () => {
                     projectTheme="Light Theme"
                     projectDesc="Empowering fitness enthusiasts with an immersive online experience."
                 />
-                <a href="" className='w-full'>
+                <Link href="services" className='w-full'>
                     <ScrambleButton text={"View all projects"} className="w-full">
                         <Image src="/icons/arrow-up.svg" alt="icon" width={20} height={20} className='opacity-80 [transform:rotate(45deg)]'/>
                     </ScrambleButton>
-                </a>
+                </Link>
             </div>
         </section>
     )
