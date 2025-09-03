@@ -15,7 +15,7 @@ export const Hero = () => {
                     </span>
                     <h1 className="heading-huge text-white">Fahd El Attar</h1>
                 </div>
-                <p className="description text-[15px] font-medium text-gray-60 col-span-2 md:col-span-1 my-4">Experienced web developer from Safi, Morocco, with a passion for crafting seamless digital experiences and a proven track record.</p>
+                <p className="description text-[15px] font-medium text-gray-60 col-span-2 md:col-span-1 my-4">Experienced full stack developer and AI Engineer from Safi, Morocco, with a passion for crafting seamless digital experiences and a proven track record.</p>
                 <div className="usefull-buttons grid grid-cols-1 md:grid-cols-2 gap-6 gap-y-2 w-full col-span-2 md:col-span-1">
                     <ScrambleButton text={"Email Me"} className='text-[13px] font-semibold'>
                         <Image src="/icons/mail.svg" alt="icon" width={20} height={20} />
