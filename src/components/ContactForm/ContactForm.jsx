@@ -36,7 +36,7 @@ export const ContactForm = () => {
             setMessage("");
         } catch (error) {
             console.error("Failed to send email:", error);
-            setStatus({ loading: false, success: null, error: "Failed to send message. Please try again." });
+            setStatus({ loading: false, success: null, error: "Failed to send message!" });
             setShowStatus(true);
         }
     }

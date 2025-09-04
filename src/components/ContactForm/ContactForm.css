@@ -32,7 +32,7 @@
 }
 
 .status-card p {
-    @apply text-text-md text-gray-90 text-nowrap;
+    @apply text-text-md text-gray-90 text-nowrap whitespace-nowrap;
 }
 
 .status-card.success {
