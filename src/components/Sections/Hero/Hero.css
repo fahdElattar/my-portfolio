@@ -1,13 +1,23 @@
-.running-logos {
-    @apply max-w-[100%] overflow-x-hidden flex items-center gap-8 mt-4 py-6 mb-2 relative after:pointer-events-none after:absolute after:content-[""] after:w-[100%] after:h-[100%] after:left-0 after:top-0;
+.running-services {
+    @apply max-w-[100%] overflow-x-hidden mt-4 py-6 mb-2 relative after:pointer-events-none after:absolute after:content-[""] after:w-[100%] after:h-[100%] after:left-0 after:top-0;
 }
 
-.running-logos img {
-    @apply h-9;
-}
-
-.running-logos::after {
+.running-services::after {
     background-image: linear-gradient(to right, #050505 0%, transparent 10%, transparent 90%, #050505 100%);
+}
+
+.running-services-inner {
+    @apply flex items-center gap-10 w-fit;
+}
+
+.running-services-inner[data-animated="true"] {
+    animation: scroll 40s linear infinite;
+}
+
+@keyframes scroll {
+    to {
+        transform: translateX(calc(-50% - 20px));
+    }    
 }
 
 .achievements {

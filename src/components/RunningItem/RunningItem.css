@@ -1,0 +1,7 @@
+.running-item {
+    @apply flex justify-center items-center gap-2;
+}
+
+.running-item p {
+    @apply text-gray-80 text-text-sm text-nowrap;
+}
