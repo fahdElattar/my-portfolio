@@ -2,9 +2,9 @@
 import { useEffect, useState } from "react";
 import Button from "../Buttons/Button"
 import './Header.css';
-import { fetchTime } from "@/lib/fetchTime";
 import Link from "next/link";
 import Image from "next/image";
+import { fetchTime } from "@/lib/fetchTime";
 
 export const Header = () => {
     const [time, setTime] = useState("");
