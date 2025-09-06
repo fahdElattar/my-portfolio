@@ -7,13 +7,13 @@ import Image from 'next/image';
 import { useState, useEffect } from 'react';
 
 export const Hero = () => {
-    const [animated, setAnimated] = useState(false);
+    // const [animated, setAnimated] = useState(false);
 
-    useEffect(() => {
-        if (typeof window !== "undefined" && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-            setAnimated(true);
-        }
-    }, []);
+    // useEffect(() => {
+    //     if (typeof window !== "undefined" && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    //         setAnimated(true);
+    //     }
+    // }, []);
 
     return (
         <main id="Hero">
@@ -46,7 +46,7 @@ export const Hero = () => {
                     </ScrambleButton>
                 </div>
             </section>
-            <section className="running-services">
+            {/* <section className="running-services">
                 <div className="running-services-inner" data-animated={animated}>
                     <RunningItem name="Exceptional Quality" />
                     <RunningItem name="Transparent Communication" />
@@ -63,7 +63,7 @@ export const Hero = () => {
                     <RunningItem name="Responsive Support" />
                     <RunningItem name="Always in Sync" />
                 </div>
-            </section>
+            </section> */}
             <section className="achievements">
                 <Achievement score={"5"} title={"Happy Clients"} />
                 <Achievement score={"6"} title={"Years of Experience"} />
