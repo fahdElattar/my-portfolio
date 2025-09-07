@@ -12,23 +12,23 @@ export const Services = () => {
             <div className="services-list grid grid-cols-1 md:grid-cols-2 gap-3">
                 <ServiceItem
                     iconName="layout"
-                    ServiceName="Web Design"
-                    ServiceDesc="Crafting visually captivating and user-friendly websites for online success."
+                    ServiceName="Front-End Development"
+                    ServiceDesc="Building responsive, modern, and user-friendly interfaces."
                 />
                 <ServiceItem
                     iconName="web"
-                    ServiceName="Web Development"
-                    ServiceDesc="Bringing ideas to life with robust and scalable web solutions."
+                    ServiceName="Back-End Development"
+                    ServiceDesc="Developing secure, scalable, and efficient server-side solutions."
                 />
                 <ServiceItem
-                    iconName="palette"
-                    ServiceName="Graphic Design"
-                    ServiceDesc="Creating visually stunning designs that captivate and engage audiences."
+                    iconName="brain"
+                    ServiceName="AI & ML Engineering"
+                    ServiceDesc="Designing intelligent models to power data-driven applications."
                 />
                 <ServiceItem
-                    iconName="speed"
-                    ServiceName="SEO Optimization"
-                    ServiceDesc="Elevating online visibility and driving organic traffic through strategies."
+                    iconName="bar-chart"
+                    ServiceName="Business Intelligence"
+                    ServiceDesc="Transforming data into insights for smarter decision-making."
                 />
             </div>
         </section>

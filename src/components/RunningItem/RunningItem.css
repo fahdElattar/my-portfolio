@@ -3,5 +3,5 @@
 }
 
 .running-item p {
-    @apply text-gray-80 text-text-sm text-nowrap;
+    @apply text-gray-80 text-text-sm text-nowrap whitespace-nowrap;
 }
