@@ -6,8 +6,8 @@
     @apply row-span-1 md:row-span-4 max-h-[16rem] h-[128px] md:h-auto bg-dark-7 border-dark-22 rounded-xl relative overflow-hidden;
 }
 
-.profile-img Image {
-    @apply absolute bottom-0 left-3 md:left-5 w-28 md:w-[232px];
+.profile-img .my-img {
+    @apply absolute bottom-0 left-2 md:left-6 w-[120px] md:w-[212px];
 }
 
 .avatar-name {

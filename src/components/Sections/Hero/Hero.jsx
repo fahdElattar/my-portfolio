@@ -23,7 +23,8 @@ export const Hero = () => {
                         src="/images/my-image-3.png"
                         alt="avatar"
                         width={232}
-                        height={232}
+                        height={222}
+                        className='my-img'
                         priority
                     />
                 </div>

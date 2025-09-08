@@ -15,7 +15,7 @@
 }
 
 .service-name {
-    @apply text-heading-sm font-bold text-gray-85 capitalize;
+    @apply text-heading-sm font-bold text-gray-85 capitalize truncate;
 }
 
 .service-body {
