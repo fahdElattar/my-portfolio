@@ -1,11 +1,10 @@
-import axios from "axios"
-
-export const fetchTime = async () => {
+export const fetchTime = () => {
     try {
-        const time = await axios.get(`https://timeapi.io/api/time/current/zone?timeZone=Africa/Casablanca`)
-        return time.data.time;
+        const now = new Date();
+        const time = now.toLocaleTimeString("en-US", { hour12: false });
+        return time;
     } catch (err) {
-        console.error('Invalid Time Request', err);
-        return "Error";
+        console.error("Error getting time", err);
+        return "No time";
     }
-}
+};

@@ -62,6 +62,7 @@ export default {
         'max-390': { 'max': '390px' },
         sm: "420px",   // Small devices (phones)
         md: "768px",   // Medium devices (tablets)
+        custom: "900px",   // Custom devices used for project items
         lg: "1024px",  // Large devices (small laptops)
         xl: "1200px",  // Extra large devices (desktops)
         "2xl": "1536px", // 2x large screens

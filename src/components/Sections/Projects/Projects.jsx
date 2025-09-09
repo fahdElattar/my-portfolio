@@ -16,21 +16,19 @@ export const Projects = () => {
             />
             <div className="projects-list grid grid-cols-1 gap-3">
                 <ProjectItem 
-                    projectImg="project-1.png"
-                    projectName="Devcraft"
-                    projectLink="devcraft.com"
-                    projectType="porfolio"
-                    projectPages="4 Pages"
-                    projectTheme="Dark Theme"
-                    projectDesc="Showcasing expertise, passion, and innovation in the realm of development."
+                    projectImg="project-nebulens.png"
+                    projectName="Nebulens"
+                    projectLink="https://nebulens.vercel.app/"
+                    projectSmallDesc="Ai Video Emotion Detector"
+                    projectFrameworks="React, Flask"
+                    projectDesc="AI-powered platform that detects emotions from video and audio using deep learning."
                 />
                 <ProjectItem 
                     projectImg="project-2.jpg"
                     projectName="Zenith Gym"
                     projectLink="zenith.com"
-                    projectType="Fitness"
-                    projectPages="5 Pages"
-                    projectTheme="Light Theme"
+                    projectSmallDesc="Fitness"
+                    projectFrameworks="5 Pages"
                     projectDesc="Empowering fitness enthusiasts with an immersive online experience."
                 />
                 <Link href="services" className='w-full'>
